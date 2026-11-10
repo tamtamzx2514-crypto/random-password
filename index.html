@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random-password</title>
+    <link rel="stylesheet" href="2.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+</head>
+<body>
+    
+    <header>
+        <div class="container" >
+            
+            <h1 class="title" >TAM PASSGEN</h1>
+            <h3 class="subtitle" >Create a Strong Password</h3>
+        
+            <div class="password-box" >
+                <span class="password-text">---------</span>
+                <button class="copy-btn" ><i class="fi fi-br-copy"></i></button>
+            </div>
+
+            <div class="password-length" >
+
+                <legend class="text-pass" >Password Length</legend>
+                <span class="length-value" >12</span>
+                
+                <input  class="line" type="range" min="1"  max="22" value="12" >
+
+            </div>
+
+            <div class="password-options" >
+                
+                <label >
+                    <input type="checkbox" id="uppercase">
+                    Uppercase
+                </label>
+                
+                <label >
+                    <input type="checkbox" id="lowercase">
+                    Lowercase
+                </label>
+                
+                <label >
+                    <input type="checkbox" id="numbers">
+                    Numbers
+                </label>
+                
+                <label>
+                    <input type="checkbox" id="symbols">
+                    Symbols
+                </label>
+
+            </div>
+
+            <div class="generate-section">
+
+                <button class="generate-btn">
+                    GENERATE PASSWORD
+                </button>
+
+            </div>
+        
+        </div>
+    </header>
+
+
+    <script src="2.js" ></script>
+</body>
+</html>
